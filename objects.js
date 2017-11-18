@@ -1,7 +1,5 @@
 var playlist = {
-  artistname1: "songtitle1",
-  artistname2: "songtitle2",
-  artistname3: "songtitle3"
+  Kanye: "Gold Digger"
 };
 
 function updatePlaylist(playlist, artistname, songtitle) {
