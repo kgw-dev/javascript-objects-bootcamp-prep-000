@@ -1,10 +1,10 @@
 var playlist = {
-  Kanye: "Gold Digger"
-};
-function updatePlaylist(playlist, artist, song) {
- return Object.assign({}, playlist, {[artist]: song})
+  Cash: "I Walk the Line"
+  };
+function updatePlaylist(object, artist, song) {
+ return Object.assign({}, object, {[artist]: song})
 }
-function removeFromPlaylist(playlist, artist) {
- delete playlist.artist;
- return playlist;
+function removeFromPlaylist(object, artist) {
+ delete object[artist];
+ return object;
 }
